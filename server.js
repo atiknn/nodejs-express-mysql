@@ -24,7 +24,7 @@ require("./app/routes/customer.routes.js")(app);
 // set port, listen for requests
 const PORT =  30080;
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
+  console.log(`Server is running onn port ${PORT}.`);
 });
 
   } catch(err) {
