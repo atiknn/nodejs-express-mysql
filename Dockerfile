@@ -1,7 +1,7 @@
 FROM mhart/alpine-node
 WORKDIR /app
 # Expose the port 8080
-EXPOSE 3306
+EXPOSE 30080
 # Set the default command to run when a container starts
 # Install app dependencies
 COPY package*.json /app
